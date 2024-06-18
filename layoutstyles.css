@@ -1,0 +1,182 @@
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    width: 3fr;
+    background-color: #d8cece;
+}
+
+.common { 
+    /* background-color: #cccccc; */
+    border: solid white ;
+    position: absolute;
+}
+.goto {border: black;
+text-align: center;
+}
+
+div, p, h2, h3 {
+    margin: -4;
+    padding: 0;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 80px;
+    z-index: 2;
+    color: black;
+    text-align: center;
+    
+}
+h1 {color: black;
+    text-decoration: underline;}
+.navbar{
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: fit-content;
+    border-bottom: solid 2px black;
+}
+
+.bbody{
+    text-align: center;
+    color: black;
+    background-color: #d8cece;
+
+}
+
+/* CSS code for centering a vertical list */
+.centeredlist {
+    display: flex;
+    justify-content: center; /* Center the list horizontally */
+    align-items: center; /* Center the list vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center the text horizontally */
+}
+
+ul, ol {
+    list-style-position: inside; /* Ensure bullets/numbers are inside the list item */
+    padding: 0;
+    margin: 0;
+}
+
+/* Optional: Additional styles for list items */
+li {
+    list-style-position: inside; /* Ensure bullets/numbers are inside the list item */
+}
+
+/* For horizontal centering in a horizontal list */
+.horizontal-container {
+    text-align: center; /* Center the text horizontally */
+}
+
+.horizontal-list {
+    list-style-position: inside; /* Ensure bullets/numbers are inside the list item */
+    display: inline-block; /* Center the list items as inline elements */
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-list li {
+    display: inline-block; /* Display list items in a row */
+    margin: 0 10px; /* Optional: Adjust spacing between items */
+}
+
+
+.current {
+    font-weight: bolder;
+    color: blue;
+    font-style: italic;
+    font-size: medium;
+}
+
+.retired{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: medium;
+    
+}
+h3 {color: black;}
+.centertext {text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;}
+
+.tab{
+    position: relative;
+    text-align: center;
+}
+
+.youtube {
+    text-align: center;
+    bottom: 450px;
+    left: 5px;
+    right: 5px;
+}
+/* .lw {
+   grid-column: auto;
+    width: 1fr;
+    left: 5px;
+    background-color: aqua;
+    height: auto;
+}
+
+.mbody{
+   
+    left: 410px;
+    width: 400px;
+    top: 114px;
+    text-align: center;
+    background-color: black;
+    height: auto;
+    padding-right: 5px;
+}
+.rw{
+   grid-column: auto;
+    width: 1fr;
+    right: 5px;
+    background-color: brown;
+    height: auto;
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 400px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 50px;
+    border-right: solid 1px #350505;
+}
+
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 400px;
+    bottom: 39px;
+    padding-left: 5px;
+    border-left: solid 1px #350505;
+}
+
+.mainbody {
+    top: 214px;
+    left: 214px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+} */
+
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: relative; 
+    background-color: #d8cece;;
+}
